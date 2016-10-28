@@ -1,0 +1,56 @@
+{
+  "name": "is-font-cli",
+  "version": "0.0.0",
+  "description": "Detect if a file is a font",
+  "license": "MIT",
+  "repository": "awcross/is-font-cli",
+  "author": {
+    "name": "Alex Cross",
+    "email": "crossaw@gmail.com",
+    "url": "alexcross.io"
+  },
+  "bin": {
+    "is-font": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "file",
+    "font",
+    "mime",
+    "type",
+    "eot",
+    "ttf",
+    "otf",
+    "woff",
+    "woff2"
+  ],
+  "dependencies": {
+    "is-font": "^1.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "coveralls": "^2.11.12",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
