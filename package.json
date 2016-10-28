@@ -1,6 +1,6 @@
 {
   "name": "is-font-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect if a file is a font",
   "license": "MIT",
   "repository": "awcross/is-font-cli",
