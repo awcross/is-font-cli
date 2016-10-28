@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --g is-font-cli
+$ npm install -g is-font-cli
 ```
 
 
