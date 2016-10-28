@@ -6,62 +6,27 @@
 ## Install
 
 ```
-$ npm install --save is-font-cli
+$ npm install --g is-font-cli
 ```
 
 
 ## Usage
 
-```js
-const isFontCli = require('is-font-cli');
-
-isFontCli('unicorns');
-//=> 'unicorns & rainbows'
 ```
-
-
-## API
-
-### isFontCli(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global is-font-cli
-```
-
-```
-$ is-font-cli --help
+$ is-font --help
 
   Usage
-    is-font-cli [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
+    is-font <filename>
 
   Examples
-    $ is-font-cli
-    unicorns & rainbows
-    $ is-font-cli ponies
-    ponies & rainbows
+    $ is-font unicorns.woff2
+    { ext: 'woff2', mime: 'application/font-woff' }
 ```
 
+
+## Related
+
+- [is-font](https://github.com/awcross/is-font) - Detect if a file is a font
 
 ## License
 
