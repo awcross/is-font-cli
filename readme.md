@@ -18,7 +18,7 @@ $ is-font --help
   Usage
     is-font <filename>
 
-  Examples
+  Example
     $ is-font unicorns.woff2
     { ext: 'woff2', mime: 'application/font-woff' }
 ```
@@ -26,7 +26,7 @@ $ is-font --help
 
 ## Related
 
-- [is-font](https://github.com/awcross/is-font) - Detect if a file is a font
+- [is-font](https://github.com/awcross/is-font) - API for this module
 
 ## License
 

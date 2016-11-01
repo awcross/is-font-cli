@@ -7,7 +7,7 @@ const cli = meow(`
 	Usage
 	  $ is-font <filename>
 
-	Examples
+	Example
 	  $ is-font unicorns.woff2
 	  { ext: 'woff2', mime: 'application/font-woff' }
 `);
