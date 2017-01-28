@@ -1,12 +1,12 @@
 import test from 'ava';
-import isFont from 'is-font';
+import m from 'is-font';
 
 function check(filename) {
-	const obj = isFont(filename);
+	const obj = m(filename);
 	return obj ? obj.ext : false;
 }
 
 test(t => {
 	t.is(check('./fixture/real.woff2'), 'woff2');
-	t.is(check('./fixture/fake.ttf'), false);
+	t.false(check('./fixture/fake.ttf'));
 });
