@@ -35,14 +35,14 @@
     "woff2"
   ],
   "dependencies": {
-    "is-font": "^1.0.0",
+    "is-font": "^1.1.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "coveralls": "^2.11.12",
-    "nyc": "^7.1.0",
-    "xo": "^0.16.0"
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.15",
+    "nyc": "^10.1.2",
+    "xo": "^0.17.1"
   },
   "xo": {
     "esnext": true
